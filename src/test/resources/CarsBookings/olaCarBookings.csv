@@ -6,3 +6,7 @@ partner,source,destination,firstName,lastName,city,typeOfCar,noOfSeats
 ola,bhukkum,vishrantwadi,anjali,chavan,pune,primeSedan,4
 partner,source,destination,firstName,lastName,city,typeOfCar,noOfSeats
 ola,kundalhalli,whitefield,anjali,chavan,pune,primeSedan,4
+partner,source,destination,firstName,lastName,city,typeOfCar,noOfSeats,price
+ola,whitefield,kormangala,ankita,jha,bangalore,primeSedan,2,300
+partner,source,destination,firstName,lastName,city,typeOfCar,noOfSeats,price
+ola,whitefield,kormangala,ankita,jha,bangalore,primeSedan,2,300
