@@ -1,0 +1,21 @@
+pipeline {
+  agent any
+  stages {
+    stage('Build') {
+      steps {
+	         git 'https://github.com/anji41195/OlaCarBooking.git'
+            bat 'mvn clean package deploy -DskipMunitTests -DmuleDeploy'
+      }
+    }
+	
+	
+	 stage('Deploy') {
+      steps {
+	         git 'https://github.com/anji41195/OlaCarBooking.git'
+            bat 'mvn clean package deploy -DskipMunitTests -DmuleDeploy'
+      }
+    }
+	
+	}
+	
+}
